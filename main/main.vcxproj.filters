@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\point">
+      <UniqueIdentifier>{485c3393-f711-4f3c-91d2-003b9e0e1c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\point">
+      <UniqueIdentifier>{c79715c2-87f9-4bd5-8182-4376d68bd54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\figure">
+      <UniqueIdentifier>{d02baaf2-50d6-4957-b2c4-ee8487b89360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\figure\figures">
+      <UniqueIdentifier>{ffc0b317-1369-4eb9-ad9b-96fd93b41456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pointspatial">
+      <UniqueIdentifier>{39fd5630-6d3c-426c-8e10-9c49a21a2e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\figurespatial">
+      <UniqueIdentifier>{f62e7d39-5f17-4d57-b6fd-679f45a0e010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\figurespatial\figures">
+      <UniqueIdentifier>{9c5d3d10-ba22-4840-b74b-1aae2afb17d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\point spatial">
+      <UniqueIdentifier>{38e1706d-3093-4bf0-98f2-e9b70cba9b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\figure spatial">
+      <UniqueIdentifier>{28e0a745-21a3-465e-99f5-22ceb303fd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\figure">
+      <UniqueIdentifier>{ca7a06a9-10e1-49c3-9f16-b47cdd26f6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\figure\figures">
+      <UniqueIdentifier>{4d450561-48fb-452a-b89e-69658026a9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\figure spatial\figures spatial">
+      <UniqueIdentifier>{b3ad8049-e3ef-4b28-ba13-d65735700876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files\point</Filter>
+    </ClCompile>
+    <ClCompile Include="pointspatial.cpp">
+      <Filter>Source Files\point spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="figurespatial.cpp">
+      <Filter>Source Files\figure spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="diamond.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="Pentagon.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="square.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="tetragon.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="trapeze.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="prismpentagonal.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="prismtetragonal.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="prismtriangular.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramidpentagonal.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramidtetragonal.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="piramidtriangular.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>Header Files\point</Filter>
+    </ClInclude>
+    <ClInclude Include="pointspatial.h">
+      <Filter>Header Files\pointspatial</Filter>
+    </ClInclude>
+    <ClInclude Include="figurespatial.h">
+      <Filter>Header Files\figurespatial</Filter>
+    </ClInclude>
+    <ClInclude Include="piramidtriangular.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramidtetragonal.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramidpentagonal.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="prismtriangular.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="prismtetragonal.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="prismpentagonal.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="tetragon.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="diamond.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="trapeze.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Pentagon.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="figure.h">
+      <Filter>Header Files\figure</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
