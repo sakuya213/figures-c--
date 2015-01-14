@@ -102,6 +102,9 @@
     <ClCompile Include="piramidtriangular.cpp">
       <Filter>Source Files\figure spatial\figures spatial</Filter>
     </ClCompile>
+    <ClCompile Include="figure.cpp">
+      <Filter>Source Files\figure</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="point.h">

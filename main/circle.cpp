@@ -1,5 +1,6 @@
 #include "circle.h"	
-#include "figure.h"	
+#include "point.h"
+#include "figure.h"
 
 
 	Circle::Circle(Point _a, double _r){

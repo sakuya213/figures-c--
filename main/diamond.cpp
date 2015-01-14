@@ -1,4 +1,6 @@
 #include "diamond.h"
+#include "point.h"
+#include "figure.h"
 
 Diamond::Diamond(Point _a, Point _b, Point _c, Point _d){
 	this->points[0] = _a;

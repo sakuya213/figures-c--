@@ -62,6 +62,7 @@
   <ItemGroup>
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="diamond.cpp" />
+    <ClCompile Include="figure.cpp" />
     <ClCompile Include="figurespatial.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pentagon.cpp" />
