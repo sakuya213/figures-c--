@@ -1,6 +1,7 @@
 #include "triangle.h"
 #include "point.h"
 #include "figure.h"
+#include <cmath>
 
 Triangle::Triangle(Point _a, Point _b, Point _c){
 	this->points[0] = _a;
@@ -27,4 +28,3 @@ double Triangle::getArea()
 		); 
 	return area * area * sqrt(double(3)) /4;
 }
-};

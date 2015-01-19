@@ -1,5 +1,8 @@
 #ifndef square_h
 #define square_h
+#include "figure.h"
+#include "point.h"
+
 class Square: public Figure
 {
 private:

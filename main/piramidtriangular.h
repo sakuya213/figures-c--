@@ -1,5 +1,7 @@
 #ifndef piramidtriangular_h
 #define piramidtriangular_h
+#include "figurespatial.h"
+#include "pointspatial.h"
 
 class PyramidTriangular: public FigureSpatial
 {

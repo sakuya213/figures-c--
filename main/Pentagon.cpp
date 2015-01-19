@@ -1,6 +1,7 @@
-#include "Pentagon.h"
+#include "pentagon.h"
 #include "point.h"
 #include "figure.h"
+#include <cmath>
 
 Pentagon::Pentagon(Point _a, Point _b, Point _c, Point _d, Point _e){
 	this->points[0] = _a;
@@ -29,4 +30,3 @@ double Pentagon::getArea()
 		); 
 	return area * area * sqrt(double(25 + 10 * sqrt(double(5)))) / 4;
 }
-};

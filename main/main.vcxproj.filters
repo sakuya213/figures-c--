@@ -69,9 +69,6 @@
     <ClCompile Include="diamond.cpp">
       <Filter>Source Files\figure\figures</Filter>
     </ClCompile>
-    <ClCompile Include="Pentagon.cpp">
-      <Filter>Source Files\figure\figures</Filter>
-    </ClCompile>
     <ClCompile Include="square.cpp">
       <Filter>Source Files\figure\figures</Filter>
     </ClCompile>
@@ -104,6 +101,9 @@
     </ClCompile>
     <ClCompile Include="figure.cpp">
       <Filter>Source Files\figure</Filter>
+    </ClCompile>
+    <ClCompile Include="pentagon.cpp">
+      <Filter>Source Files\figure\figures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -152,11 +152,14 @@
     <ClInclude Include="square.h">
       <Filter>Header Files\figure\figures</Filter>
     </ClInclude>
-    <ClInclude Include="Pentagon.h">
-      <Filter>Header Files\figure\figures</Filter>
-    </ClInclude>
     <ClInclude Include="figure.h">
       <Filter>Header Files\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="pentagon.h">
+      <Filter>Header Files\figure\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

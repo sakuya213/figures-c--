@@ -1,6 +1,7 @@
 #include "diamond.h"
 #include "point.h"
 #include "figure.h"
+#include <cmath>
 
 Diamond::Diamond(Point _a, Point _b, Point _c, Point _d){
 	this->points[0] = _a;
@@ -32,4 +33,3 @@ double Diamond::getArea()
 
 	return area * h;
 }
-};

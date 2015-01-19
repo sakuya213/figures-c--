@@ -3,8 +3,8 @@
 
 class Figure
 {
-	virtual double getCircumference();
-	virtual double getArea();
+	double getCircumference();
+	double getArea();
 };
 #endif
 

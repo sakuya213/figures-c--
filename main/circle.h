@@ -1,6 +1,8 @@
 #ifndef circle_h
 #define circle_h
 #define M_PI 3.14159265358979323846
+#include "figure.h"
+#include "point.h"
 
 class Circle: public Figure
 {

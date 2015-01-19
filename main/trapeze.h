@@ -1,5 +1,8 @@
 #ifndef trapeze_h
 #define trapeze_h
+#include "figure.h"
+#include "point.h"
+
 class Trapeze: public Figure
 {
 private: 

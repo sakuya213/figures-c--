@@ -1,7 +1,5 @@
 #include "piramidtriangular.h"
-#include "pointspatial.h"
-#include "figurespatial.h"
-
+#include <cmath>
 
 PyramidTriangular::PyramidTriangular(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d){
 	this->points[0] = _a;
@@ -56,4 +54,3 @@ double PyramidTriangular::getVolume()
 	return vol;
 
 }
-};

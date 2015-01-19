@@ -1,13 +1,11 @@
 #include "figure.h"
-#include "point.h"
 
-class Figure
-{
-	virtual double getCircumference(){
+
+	double Figure::getCircumference(){
 		return 0;
 	}
-	virtual double getArea(){
+	double Figure::getArea(){
 		return 0;
 	}
-};
+
 

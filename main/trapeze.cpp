@@ -1,6 +1,7 @@
 #include "trapeze.h"
 #include "point.h"
 #include "figure.h"
+#include <cmath>
 
 Trapeze::Trapeze(Point _a, Point _b, Point _c, Point _d){
 	this->points[0] = _a;
@@ -37,4 +38,3 @@ double Trapeze::getArea()
 
 	return (area + area2) * h / 2;
 }
-};

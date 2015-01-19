@@ -1,6 +1,7 @@
 #include "prismtetragonal.h"
 #include "pointspatial.h"
 #include "figurespatial.h"
+#include <cmath>
 
 PrismTetragonal::PrismTetragonal(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d, PointSpatial _e, PointSpatial _f, PointSpatial _g, PointSpatial _h){
 	this->points[0] = _a;
@@ -58,4 +59,3 @@ double PrismTetragonal::getVolume()
 
 	return vol;
 }
-};

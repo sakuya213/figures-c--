@@ -1,6 +1,7 @@
 #include "pyramidtetragonal.h"
 #include "pointspatial.h"
 #include "figurespatial.h"
+#include <cmath>
 
 PyramidTetragonal::PyramidTetragonal(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d, PointSpatial _e){
 	this->points[0] = _a;
@@ -56,5 +57,3 @@ double PyramidTetragonal::getVolume()
 	return vol;
 
 }
-
-};
