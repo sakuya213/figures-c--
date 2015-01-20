@@ -1,6 +1,7 @@
 #include "tetragon.h"
 #include "point.h"
 #include "figure.h"
+#include <cmath>
 
 Tetragon::Tetragon(Point _a, Point _b, Point _c, Point _d){
 	this->points[0] = _a;
@@ -33,4 +34,3 @@ double Tetragon::getArea()
 		);
 	return area * area2;
 }
-};

@@ -1,10 +1,10 @@
 #ifndef figurespatial_h
-#define figurespatial
+#define figurespatial_h
 
-class FigureSpatial : public PointSpatial
+class FigureSpatial
 {
-	virtual double getCircumference();
-	virtual double getVolume();
+	double getCircumference();
+	double getVolume();
 };
 
 #endif

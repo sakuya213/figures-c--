@@ -65,7 +65,7 @@
     <ClCompile Include="figure.cpp" />
     <ClCompile Include="figurespatial.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Pentagon.cpp" />
+    <ClCompile Include="pentagon.cpp" />
     <ClCompile Include="piramidtriangular.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="pointspatial.cpp" />
@@ -84,7 +84,8 @@
     <ClInclude Include="diamond.h" />
     <ClInclude Include="figure.h" />
     <ClInclude Include="figurespatial.h" />
-    <ClInclude Include="Pentagon.h" />
+    <ClInclude Include="library.h" />
+    <ClInclude Include="pentagon.h" />
     <ClInclude Include="piramidtriangular.h" />
     <ClInclude Include="point.h" />
     <ClInclude Include="pointspatial.h" />

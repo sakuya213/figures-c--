@@ -1,5 +1,7 @@
 #ifndef triangle_h
 #define triangle_h
+#include "figure.h"
+#include "point.h"
 
 class Triangle: public Figure
 {

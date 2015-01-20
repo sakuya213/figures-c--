@@ -1,5 +1,8 @@
 #ifndef tetragon_h
 #define tetragon_h
+#include "figure.h"
+#include "point.h"
+
 class Tetragon: public Figure
 {
 private: 
@@ -10,3 +13,4 @@ public:
 	double getCircumference();
 	double getArea();
 };
+#endif

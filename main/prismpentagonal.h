@@ -1,5 +1,7 @@
 #ifndef prismpentagonal_h
 #define prismpentagonal_h
+#include "figurespatial.h"
+#include "pointspatial.h"
 
 class PrismPentagonal: public FigureSpatial
 {

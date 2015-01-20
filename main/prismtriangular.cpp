@@ -1,6 +1,5 @@
 #include "prismtriangular.h"
-#include "pointspatial.h"
-#include "figurespatial.h"
+#include <cmath>
 
 PrismTriangular::PrismTriangular(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d, PointSpatial _e, PointSpatial _f){
 	this->points[0] = _a;
@@ -56,4 +55,3 @@ double PrismTriangular::getVolume()
 	return vol;
 }
 
-};

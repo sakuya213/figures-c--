@@ -1,6 +1,7 @@
 #include "prismpentagonal.h"
 #include "pointspatial.h"
 #include "figurespatial.h"
+#include <cmath>
 
 
 PrismPentagonal::PrismPentagonal(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d, PointSpatial _e, PointSpatial _f, PointSpatial _g, PointSpatial _h, PointSpatial _i, PointSpatial _j){
@@ -61,4 +62,3 @@ double PrismPentagonal::getVolume()
 
 	return vol;
 }
-};

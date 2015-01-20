@@ -1,5 +1,7 @@
 #ifndef prismtriangular_h
 #define prismtriangular_h
+#include "figurespatial.h"
+#include "pointspatial.h"
 
 class PrismTriangular: public FigureSpatial
 {
@@ -11,3 +13,4 @@ public:
 	double getVolume();
 
 };
+#endif

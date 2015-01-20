@@ -1,5 +1,7 @@
 #ifndef prismtetragonal_h
 #define prismtetragonal_h
+#include "figurespatial.h"
+#include "pointspatial.h"
 
 class PrismTetragonal: public FigureSpatial
 {

@@ -1,13 +1,10 @@
 #include "figurespatial.h"
-#include "pointspatial.h"
 
 
-{
-	virtual double FigureSpatial::getCircumference(){
+	double FigureSpatial::getCircumference(){
 		return 0;
 	}
-	virtual double FigureSpatial::getVolume(){
+	double FigureSpatial::getVolume(){
 		return 0;
 	}
-};
 
