@@ -6,10 +6,10 @@
 class PrismPentagonal: public FigureSpatial
 {
 private:
-	PointSpatial points[9];
+	PointSpatial points[10];
 public:
 	PrismPentagonal(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d, PointSpatial _e, PointSpatial _f, PointSpatial _g, PointSpatial _h, PointSpatial _i, PointSpatial _j);
-	double getCircumference();
-	double getVolume();
+	virtual double getCircumference();
+	virtual double getVolume();
 };
 #endif

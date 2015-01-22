@@ -11,10 +11,13 @@ Triangle::Triangle(Point _a, Point _b, Point _c){
 double Triangle::getCircumference()
 {
 	double cir = 0;
+	int a,b;
 	for(int i=0;i<3;i++){ // cir triangle
+		a = (i%3);
+		b = ((i+1)%3);
 		cir += sqrt(
-			( points[(i)%3].getX() -  points[(i+1)%3].getX() ) * ( points[(i)%3].getX() - points[(i+1)%3].getX() ) + 
-			( points[(i)%3].getY() -  points[(i+1)%3].getY() ) * ( points[(i)%3].getY() - points[(i+1)%3].getY() )
+			( points[a].getX() -  points[b].getX() ) * ( points[a].getX() - points[b].getX() ) + 
+			( points[a].getY() -  points[b].getY() ) * ( points[a].getY() - points[b].getY() )
 			); 
 	}
 	return cir;
@@ -26,5 +29,5 @@ double Triangle::getArea()
 		( points[0].getX() -  points[1].getX() ) * ( points[0].getX() - points[1].getX() ) + 
 		( points[0].getY() -  points[1].getY() ) * ( points[0].getY() - points[1].getY() )
 		); 
-	return area * area * sqrt(double(3)) /4;
+	return area * area * sqrt(double(3)) /((double)4);
 }

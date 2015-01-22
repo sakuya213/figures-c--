@@ -96,14 +96,17 @@
     <ClCompile Include="pyramidtetragonal.cpp">
       <Filter>Source Files\figure spatial\figures spatial</Filter>
     </ClCompile>
-    <ClCompile Include="piramidtriangular.cpp">
-      <Filter>Source Files\figure spatial\figures spatial</Filter>
-    </ClCompile>
     <ClCompile Include="figure.cpp">
       <Filter>Source Files\figure</Filter>
     </ClCompile>
     <ClCompile Include="pentagon.cpp">
       <Filter>Source Files\figure\figures</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramidtriangular.cpp">
+      <Filter>Source Files\figure spatial\figures spatial</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -115,9 +118,6 @@
     </ClInclude>
     <ClInclude Include="figurespatial.h">
       <Filter>Header Files\figurespatial</Filter>
-    </ClInclude>
-    <ClInclude Include="piramidtriangular.h">
-      <Filter>Header Files\figurespatial\figures</Filter>
     </ClInclude>
     <ClInclude Include="pyramidtetragonal.h">
       <Filter>Header Files\figurespatial\figures</Filter>
@@ -160,6 +160,12 @@
     </ClInclude>
     <ClInclude Include="library.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramidtriangular.h">
+      <Filter>Header Files\figurespatial\figures</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
