@@ -108,6 +108,12 @@
     <ClCompile Include="pyramidtriangular.cpp">
       <Filter>Source Files\figure spatial\figures spatial</Filter>
     </ClCompile>
+    <ClCompile Include="factoryfigure.cpp">
+      <Filter>Source Files\figure</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryfiguresspatial.cpp">
+      <Filter>Source Files\figure spatial</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="point.h">
@@ -166,6 +172,12 @@
     </ClInclude>
     <ClInclude Include="pyramidtriangular.h">
       <Filter>Header Files\figurespatial\figures</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryfiguresspatial.h">
+      <Filter>Header Files\figurespatial</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryfigure.h">
+      <Filter>Header Files\figure</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

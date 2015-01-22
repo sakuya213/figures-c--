@@ -1,5 +1,7 @@
 #include <iostream>
-#include "library.h"
+#include "factoryfigure.h"
+#include "factoryfiguresspatial.h"
+
 
 
 
@@ -13,12 +15,13 @@ using namespace std;
 int main()
 {
 
-	Point _a(5,0);
-	Point _b(10,0);
-	Point _c(0,5);
-	Figure *test=new Triangle(_a,_b,_c);
+	PointSpatial _a(0,0,0);
+	PointSpatial _b(5,0,0);
+	PointSpatial _c(2.5,5,0);
+	PointSpatial _d(2.5,2.5,5);
+	FactoryFigureSpatial test(pyramidtriangular,_a,_b,_c,_d);
 
-	cout<<test->getCircumference()<<endl;
+	cout<<test.a->getCircumference()<<endl;
 	system("pause");
 
 	return 0;
