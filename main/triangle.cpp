@@ -24,10 +24,13 @@ double Triangle::getCircumference()
 }
 double Triangle::getArea()
 {
-	double area = 0;
-	area = sqrt(
-		( points[0].getX() -  points[1].getX() ) * ( points[0].getX() - points[1].getX() ) + 
-		( points[0].getY() -  points[1].getY() ) * ( points[0].getY() - points[1].getY() )
-		); 
-	return area * area * sqrt(double(3)) /((double)4);
+    double area = 0;
+    double p = getCircumference()/2;
+    area = sqrt(
+        p *
+        (p - sqrt(pow( points[0].getX()-points[1].getX() , 2.0 ) + pow( points[0].getY() -  points[1].getY() , 2.0)))*
+        (p - sqrt(pow( points[1].getX()-points[2].getX() , 2.0 ) + pow( points[1].getY() -  points[2].getY() , 2.0 )))*
+        (p - sqrt(pow( points[2].getX()-points[0].getX() , 2.0 ) + pow( points[2].getY() -  points[0].getY() , 2.0)))
+        );
+    return area;
 }
