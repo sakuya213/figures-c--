@@ -79,6 +79,7 @@
     <ClCompile Include="pyramidtetragonal.cpp" />
     <ClCompile Include="square.cpp" />
     <ClCompile Include="tetragon.cpp" />
+    <ClCompile Include="tools.cpp" />
     <ClCompile Include="trapeze.cpp" />
     <ClCompile Include="triangle.cpp" />
   </ItemGroup>
@@ -102,6 +103,7 @@
     <ClInclude Include="pyramidtetragonal.h" />
     <ClInclude Include="square.h" />
     <ClInclude Include="tetragon.h" />
+    <ClInclude Include="tools.h" />
     <ClInclude Include="trapeze.h" />
     <ClInclude Include="triangle.h" />
   </ItemGroup>

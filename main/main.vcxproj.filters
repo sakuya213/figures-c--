@@ -114,6 +114,9 @@
     <ClCompile Include="factoryfiguresspatial.cpp">
       <Filter>Source Files\figure spatial</Filter>
     </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="point.h">
@@ -178,6 +181,9 @@
     </ClInclude>
     <ClInclude Include="factoryfigure.h">
       <Filter>Header Files\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
