@@ -3,8 +3,10 @@
 
 class FigureSpatial
 {
-	double getCircumference();
-	double getVolume();
+public:
+
+	virtual double getCircumference();
+	virtual double getVolume();
 };
 
 #endif

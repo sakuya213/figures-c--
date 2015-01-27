@@ -6,12 +6,12 @@
 class Diamond: public Figure
 {
 private: 
-	Point points[3];
+	Point points[4];
 
 public:
 	Diamond(Point _a, Point _b, Point _c, Point _d);
-	double getCircumference();
-	double getArea();
+	virtual double getCircumference();
+	virtual double getArea();
 };
 
 #endif

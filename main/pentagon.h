@@ -9,7 +9,7 @@ private:
 	Point points[5];
 public:
 	Pentagon(Point _a, Point _b, Point _c, Point _d, Point _e);
-	double getCircumference();
-	double getArea();
+	virtual double getCircumference();
+	virtual double getArea();
 };
 #endif

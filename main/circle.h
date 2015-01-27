@@ -14,8 +14,8 @@ public:
 		void setA(Point _a);
 		void setR(double _r);
 		Point getA();
-		double getR();
-		double getArea();
+		virtual double getR();
+		virtual double getArea();
 		
 };
 

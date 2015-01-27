@@ -62,11 +62,14 @@
   <ItemGroup>
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="diamond.cpp" />
+    <ClCompile Include="factory.cpp" />
+    <ClCompile Include="factoryfigure.cpp" />
+    <ClCompile Include="factoryfiguresspatial.cpp" />
     <ClCompile Include="figure.cpp" />
     <ClCompile Include="figurespatial.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pentagon.cpp" />
-    <ClCompile Include="piramidtriangular.cpp" />
+    <ClCompile Include="pyramidtriangular.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="pointspatial.cpp" />
     <ClCompile Include="prismpentagonal.cpp" />
@@ -76,17 +79,21 @@
     <ClCompile Include="pyramidtetragonal.cpp" />
     <ClCompile Include="square.cpp" />
     <ClCompile Include="tetragon.cpp" />
+    <ClCompile Include="tools.cpp" />
     <ClCompile Include="trapeze.cpp" />
     <ClCompile Include="triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circle.h" />
     <ClInclude Include="diamond.h" />
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="factoryfigure.h" />
+    <ClInclude Include="factoryfiguresspatial.h" />
     <ClInclude Include="figure.h" />
     <ClInclude Include="figurespatial.h" />
     <ClInclude Include="library.h" />
     <ClInclude Include="pentagon.h" />
-    <ClInclude Include="piramidtriangular.h" />
+    <ClInclude Include="pyramidtriangular.h" />
     <ClInclude Include="point.h" />
     <ClInclude Include="pointspatial.h" />
     <ClInclude Include="prismpentagonal.h" />
@@ -96,6 +103,7 @@
     <ClInclude Include="pyramidtetragonal.h" />
     <ClInclude Include="square.h" />
     <ClInclude Include="tetragon.h" />
+    <ClInclude Include="tools.h" />
     <ClInclude Include="trapeze.h" />
     <ClInclude Include="triangle.h" />
   </ItemGroup>

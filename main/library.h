@@ -1,7 +1,6 @@
 #ifndef library_h
 #define library_h
 
-#include <iostream>
 #include <cmath>
 #include "point.h"
 #include "pointspatial.h"
@@ -14,7 +13,7 @@
 #include "triangle.h"
 #include "figure.h"
 #include "figurespatial.h"
-#include "piramidtriangular.h"
+#include "pyramidtriangular.h"
 #include "pyramidtetragonal.h"
 #include "pyramidpentagonal.h"
 #include "prismpentagonal.h"

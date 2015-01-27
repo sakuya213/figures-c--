@@ -1,7 +1,7 @@
 #include "point.h"
 
 
-Point::Point(double _x, double _y){
+	Point::Point(double _x, double _y){
 		this->x = _x;
 		this->y = _y;
 	}

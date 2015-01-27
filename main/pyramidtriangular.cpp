@@ -1,4 +1,4 @@
-#include "piramidtriangular.h"
+#include "pyramidtriangular.h"
 #include <cmath>
 
 PyramidTriangular::PyramidTriangular(PointSpatial _a, PointSpatial _b, PointSpatial _c, PointSpatial _d){
